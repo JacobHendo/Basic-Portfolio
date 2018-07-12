@@ -118,3 +118,14 @@ h3{
     color:#4aaaa5;
     font-size: 25px;
 }
+#portpage{ 
+    width:960px;
+    margin: 50px 200px auto 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+    border-style:solid;
+    border-color: #666666;
+    border-width: thin; 
+    padding: 25px;
+
+}
