@@ -38,26 +38,24 @@
     font-size: 20px;   
     color: #ffffff;
     padding: 0 20px;
-
 }
 #main-body{
+    width:960px;
+    margin-top:100px;
+    margin-left:200px;
     margin-right:200px;
-    margin-left: 200px;
-    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffffff;
     border-style:solid;
     border-color: #666666;
-    border-width: thin;
-    
+    border-width: thin; 
+    padding: 25px;
 }
 body{
     background-image:url("../images/what-the-hex.png");
-    
-
 }
-
 footer {
-    position: fixed;
+    position:absolute;
     left: 0;
     bottom: 0;
     padding: 10px;
@@ -65,7 +63,58 @@ footer {
     background-color:#666666;
     border-top: 5px solid teal;
     text-align: center;
+    
 }
 h1{
     color:#4aaaa5;  
+}
+#image{ 
+    float: left;
+    margin:10px;
+}
+#bio{
+    margin:10px;
+}
+.con{
+    width:960px;
+    margin: 50px 200px auto 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+    border-style:solid;
+    border-color: #666666;
+    border-width: thin; 
+    padding: 25px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#4aaaa5;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+h3{
+    color:#4aaaa5;
+    font-size: 25px;
 }
