@@ -1,69 +1,91 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-
 <body>
-    <div id="topbar">
-        <header class="logo">
-            <div id="name">Jacob Henderson</header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Jacob Henderson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+
+          </ul>
         </div>
-        <ul class="nav">
-            <li>
-                <a href="file:///Users/jacobhenderson/Documents/UCF/Homework/Basic-Portfolio/index.html">About Me</a>
-            </li>
-            <li>
-                <a href="file:///Users/jacobhenderson/Documents/UCF/Homework/Basic-Portfolio/contact.html">Contact</a>
-            </li>
-            <li>
-                <a href="file:///Users/jacobhenderson/Documents/UCF/Homework/Basic-Portfolio/portfolio.html">Portfolio</a>
-            </li>
-        </ul>
-    </div>
-    <div id="main">
-        <h3>Portfolio</h3>
-        <hr>
-
-        <div class="row">
-            <div class="column">
-
-                <div class="pim">
-                    <img src="assets/images/portimage.jpg">
-                    <div class="centered">place holder</div>
-                </div>
-
-                <div class="pim">
-                    <img src="assets/images/portimage.jpg">
-                    <div class="centered">place holder</div>
-                </div>
-
-                <div class="pim">
-                    <img src="assets/images/portimage.jpg">
-                    <div class="centered">place holder</div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column2">
-                    <div class="pim">
-                        <img src="assets/images/portimage.jpg">
-                        <div class="centered">place holder</div>
+      </nav>
+      <div class="container-fluid">
+            <div class="card">
+                    <h5 class="card-header">Porfolio</h5>
+                    <div class="card-body">
+                      <h5 class="card-title"></h5>
+                      
+                      <div class="container">
+                            <div class="row">
+                                <!--project 1-->
+                              <div class="col">
+                                    <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="assets/images/parkhopper.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                              <h5 class="card-title">NP ParkHopper</h5>
+                                              <p class="card-text">This is a program designed to search multiple API databases.</p>
+                                              <a href="https://jessicahoward.github.io/ProjectOne/" class="btn btn-primary">ParkHopper</a>
+                                            </div>
+                                          </div>
+                              </div>
+                              <!--project 2-->
+                              <div class="col">
+                                    <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="assets/images/traintime.png" alt="Card image cap">
+                                            <div class="card-body">
+                                              <h5 class="card-title">TrainTime</h5>
+                                              <p class="card-text">This is a Firebase project.</p>
+                                              <a href="https://jacobhendo.github.io/TrainTime/" class="btn btn-primary">All Aboard</a>
+                                            </div>
+                                          </div>
+                              </div>
+                              <div class="w-100">
+                                <!--project 3-->
+                              </div>
+                              <div class="col">
+                                    <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="assets/images/triviaGame.png" alt="Card image cap">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Trivia Game</h5>
+                                              <p class="card-text">This is a timer based game.</p>
+                                              <a href="#" class="btn btn-primary">Game timer</a>
+                                            </div>
+                                          </div>
+                              </div>
+                              <!--project 4-->
+                              <div class="col">
+                                    <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="assets/images/gif.png" alt="Card image cap">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Gif API</h5>
+                                              <p class="card-text">Searching an API Giffy.</p>
+                                              <a href="https://jacobhendo.github.io/Trivia-Game/" class="btn btn-primary">Gif It</a>
+                                            </div>
+                                          </div>
+                              </div>
+                            </div>
+                          </div>
                     </div>
-
-                    <div class="pim">
-                        <img src="assets/images/portimage.jpg">
-                        <div class="centered">place holder</div>
-                    </div>
-            </div>
-        </div>
-        
+                  </div>
+          </div>
 </body>
-
 </html>

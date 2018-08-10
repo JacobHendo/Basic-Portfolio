@@ -7,41 +7,65 @@
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
-</head>
-<div id="topbar">
-    <header class="logo">
-        <div id="name">Jacob Henderson</header>
-    </div>
-    <ul class="nav">
-        <li>
-            <a href="file:///Users/jacobhenderson/Documents/UCF/Homework/Basic-Portfolio/index.html">About Me</a>
-        </li>
-        <li>
-            <a href="file:///Users/jacobhenderson/Documents/UCF/Homework/Basic-Portfolio/contact.html">Contact</a>
-        </li>
-        <li>
-            <a href="file:///Users/jacobhenderson/Documents/UCF/Homework/Basic-Portfolio/portfolio.html ">Portfolio</a>
-        </li>
-    </ul>
-</div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <div id="topbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Jacob Henderson</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-<body>
-    <div class="con">
-    <h3>Contact Form</h3>
-    <hr><br>
-    <form action="/action_page.php">
-        <label for="fname"> Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <body>
+            <div class="container">
+                <div class="row">
+                    <div class="card mb-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                            </div>
+                            <div class="card-body">
+                                <div class="con">
+                                    <h3>Contact Form</h3>
+                                    <hr>
+                                    <br>
+                                    <form action="/action_page.php">
+                                        <label for="fname"> Name</label>
+                                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Email..">
+                                        <label for="email">Email</label>
+                                        <input type="text" id="email" name="email" placeholder="Email..">
 
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                        <label for="subject">Subject</label>
+                                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-        <input type="submit" value="Submit">
-    </form></div>
-    </div>
-</body>     
+                                        <input type="submit" value="Submit">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-muted">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+
 </html>

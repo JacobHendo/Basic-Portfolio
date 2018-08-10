@@ -8,16 +8,14 @@
 }
 .nav{
     background-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
     list-style:none;
     text-align: right;
-    padding: 20px 0 20px 0;
-    margin:-8px;
+  
+
 }
 .nav > li{
     display: inline-block;
-    padding-right: 50px;
+    
 }
 .nav >li > a{
     text-decoration: none;
@@ -76,14 +74,14 @@ h1{
     margin:10px;
 }
 .con{
-    width:960px;
-    margin: 50px 200px auto 200px;
+    
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffffff;
     border-style:solid;
     border-color: #666666;
     border-width: thin; 
-    padding: 25px;
+    
 }
 input[type=text], select, textarea {
     width: 100%;

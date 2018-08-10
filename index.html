@@ -4,54 +4,67 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About Me</title>
+    <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <div id="topbar">
-        <header class="logo">
-            <div id="name">Jacob Henderson</header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Jacob Henderson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.htmls">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
         </div>
-        <ul class="nav">
-            <li>
-                <a href="file:///Users/jacobhenderson/Documents/UCF/Homework/Basic-Portfolio/index.html">About Me</a>
-            </li>
-            <li>
-                <a href="file:///Users/jacobhenderson/Documents/UCF/Homework/Basic-Portfolio/contact.html">Contact</a>
-            </li>
-            <li>
-                <a href="file:///Users/jacobhenderson/Documents/UCF/Homework/Basic-Portfolio/portfolio.html">Portfolio</a>
-            </li>
-        </ul>
+    </nav>
+    <div class="container-fluid">
+        <div class="card">
+            <h5 class="card-header">About me</h5>
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <div class="container">
+                    <div class="row">
+                            <div class="card mb-3">
+                                    <div class="card text-center">
+                                            <div class="card-header">
+                                            </div>
+                                            <div class="card-body">
+                                                    <img id="image" src="assets/images/profile.jpg" alt="my picture" style="">
+                                                    <p id="bio">I'm just your typical Tampa nerd daydreaming of a galaxy far, far away and attempting to take over the world. My goal in life, both through work and <br>
+                                                        play, is to challenge popular belief and push the limits of what's possible.<br>
+                                                         I live to make websites more meaningful and usable. I would probably hack a lemonade stand if it weren't "weird" or "creepy." I'm just that committed. And non-creepy. My roots in sales and community building provide me with a keen understanding<br>
+                                                          of engagement and interaction design. As a full-stack developer, I geek out over HTML, CSS, Javascript, PHP, APIs, Bootstrap, and all that in between. I'm young, ambitious, and develop sites that are customer-centric. 
 
-    </div>
-    <div id="main-body">
-        <h1>About Me</h1>
-        <hr>
-        <img id="image" src="assets/images/profile.jpg" alt="my picture" style="width:15%;height:35%;">
-        <p id="bio">Suspendisse interdum ornare mauris, eu tristique ipsum pellentesque ac. Praesent gravida, neque vitae pulvinar tempor,
-            leo ligula dapibus lectus, eget tempor urna est eu felis. Proin mattis elementum tortor, eget pulvinar nunc ullamcorper
-            non. Curabitur interdum turpis sed diam volutpat, sed posuere nibh ullamcorper. Morbi imperdiet justo vitae condimentum
-            dignissim. Nam volutpat nec lectus quis tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            eget tristique dui, ac pretium lacus. Morbi eget porta ipsum. Quisque elementum massa a tellus maximus bibendum.
-            Suspendisse lobortis risus in ipsum sollicitudin, nec porttitor lorem porta. Vestibulum laoreet quam eget egestas
-            luctus. Curabitur dapibus eros a efficitur mollis. Nam posuere augue ipsum, eget laoreet nibh dignissim at. Etiam
-            non dignissim purus. Sed blandit odio ac tincidunt vehicula.Suspendisse interdum ornare mauris, eu tristique
-            ipsum pellentesque ac. Praesent gravida, neque vitae pulvinar tempor, leo ligula dapibus lectus, eget tempor
-            urna est eu felis. Proin mattis elementum tortor, eget pulvinar nunc ullamcorper non. Curabitur interdum turpis
-            sed diam volutpat, sed posuere nibh ullamcorper. Morbi imperdiet justo vitae condimentum dignissim. Nam volutpat
-            nec lectus quis tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget tristique dui,
-            ac pretium lacus. Morbi eget porta ipsum. Quisque elementum massa a tellus maximus bibendum. Suspendisse lobortis
-            risus in ipsum sollicitudin, nec porttitor lorem porta. Vestibulum laoreet quam eget egestas luctus. Curabitur
-            dapibus eros a efficitur mollis. Nam posuere augue ipsum, eget laoreet nibh dignissim at. Etiam non dignissim
-            purus. Sed blandit odio ac tincidunt vehicula
-        </p>
-    </div>
+                                                        Hailing from the beach bum status in Clearwater, FL, I'm a former teenage life insurance sales agent with some exciting stories. When I'm not building beautiful things,<br>
+                                                         I'm most likely biking, checking out a live show, playing my bass or honing my MySQL skills.  My motto: Try to see life "sunny-side-up." I prefer my yolks runny, and my jokes corny.
+                                                    </p>
+                                            </div>
+                                            <div class="card-footer text-muted">
+                                                
+                                            </div>
+                                          </div>
+                                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 </body>
-<div id="copyright">
-    <footer>copyright©</footer>
 
 </html>
